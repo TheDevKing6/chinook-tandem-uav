@@ -1,0 +1,12 @@
+Remote (esp32 controlled)
+-Left Gimbal Signal Out (V-Axis) -> ESP32 Pin GPIO 32
+-Left Gimbal Signal Out (H-Axis) -> ESP32 Pin GPIO 33
+-Right Gimbal Signal Out (V-Axis) -> ESP32 Pin GPIO 34
+-Right Gimbal Signal Out (H-Axis) -> ESP32 Pin GPIO 35
+
+AIRCRAFT SIDE (SpeedyBee F405 V4 Flight Controller)
+-RadioMaster RP1 Receiver TX Pin -> SpeedyBee Pad RX2
+-RadioMaster RP1 Receiver RX Pin -> SpeedyBee Pad TX2
+-Hobbywing 50A Main ESC Signal -> SpeedyBee Pad M1 
+-3x Front Cyclic Control Servos -> SpeedyBee Pads S1, S2, S3
+-3x Rear Cyclic Control Servos -> SpeedyBee Pads S4, S5, S6
